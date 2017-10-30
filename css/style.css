@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* CLEAR FIX */
+.clear:after {
+	content: ".";
+	display: block;
+	height: 0;
+	font-size: 0;
+	clear: both;
+	visibility: hidden;
+}
+/* GLOBAL TAGS */
+* {	line-height: 1.6; }
+
+body { background-color: #fff; }
+
+canvas { border: 1px solid #d3d3d3;	background-color: #f1f1f1; }
+/* ELEMENTS */
+.page {	display: flex; }
+
+.box-vert {	display: flex; flex-direction: column; }
+
+.block { display: block; }
+
+.btn { padding: 4px 8px; border: 1px solid #aaa; background-color: #eee; cursor: pointer; }
+.btn:hover { background-color: #ddd; }
+.btn:active { background-color: #ccc; }
